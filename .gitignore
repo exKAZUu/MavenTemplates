@@ -2,3 +2,5 @@
 target
 # Xtend
 xtend-gen
+# Eclipse
+.cache
