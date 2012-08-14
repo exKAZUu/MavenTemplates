@@ -5,7 +5,7 @@ package jp.ac.waseda.cs.washi
  */
 object ScalaApp {
 
-  def foo(x: Array[String]) = x.foldLeft("")((a, b) => a + b)
+  def foo(x: Array[String]) = x.foreach(println)
 
   def main(args: Array[String]) {
     val l = List(1, 2)
